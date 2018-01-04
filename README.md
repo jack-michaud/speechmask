@@ -6,14 +6,14 @@ This is a dirt cheap way of doing it!
 
 A normal Mac can run this. Requires `python` and `say`. Along with `pocketsphinx`:
 
-```
-brew install --HEAD watsonbox/cmu-sphinx/cmu-sphinxbase
-brew install --HEAD watsonbox/cmu-sphinx/cmu-pocketsphinx
+```sh
+$ brew install --HEAD watsonbox/cmu-sphinx/cmu-sphinxbase
+$ brew install --HEAD watsonbox/cmu-sphinx/cmu-pocketsphinx
 ```
 
 ### Usage
-```
-python run.py 
+```sh
+$ python run.py 
 # Now speak into your computer's mic and watch and marvel as your computer 
 # inaccurately parrots your speech!
 ```
